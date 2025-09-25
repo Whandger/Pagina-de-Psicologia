@@ -1,0 +1,66 @@
+.text_after_box2{
+    display: flex;
+    width: 100%;
+    background-color:rgb(245, 245, 244);
+    height: 7vh;
+    align-items: self-end;
+    justify-content: center;
+    }
+
+h4{
+    font-family: Libre\ Caslon\ Display;
+    font-size: 1.2rem;
+    user-select: none;
+}
+
+.third_box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    background-color:rgb(245, 245, 244);
+    padding-top: 1vh;
+}
+
+h1{
+    font-family: Libre\ Caslon\ Display;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.title_box2{
+    width: 200px;
+}
+
+.image_box2{
+    margin-top: 15px;
+    width: 50%;
+    height: 30vh;
+    border-radius: 2%;
+    overflow: hidden;
+    background-color: blueviolet;
+}
+
+.image_box2 img{
+    object-position: center;
+    display:block;
+    margin: 0;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.text_box2{
+    text-align: center;
+    margin-top: 20px;
+    width: 50%;
+    height: 5vh;
+    text-justify: inter-word;
+    text-align: justify;   
+}
+
+#section3 {
+    scroll-margin-top: 150px; /* ajuste conforme a altura do seu header */
+  }
