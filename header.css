@@ -1,0 +1,138 @@
+  /* HEADER principal */
+header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2vw;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  }
+
+  #main-header.scrolled {
+    background-color:rgb(245, 245, 244);
+    box-shadow: 0 0.2vh 0.5vh rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  div.logo{
+    width: 6.5vh;
+    height: auto;
+    flex-shrink: 0; /* evita que a logo seja espremida pelo flex */
+  }
+
+  #logo{
+    width: 100%;
+    height: auto;
+  }
+
+  /* Áreas do header */
+  .right_head,
+  .center_head {
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+  
+  /* Links de navegação */
+  .nav_link {
+    color: #18272F;
+    position: relative;
+    text-decoration: none;
+    margin: 0 1rem;
+    margin-left: 0.1vh;
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(56, 56, 56);;
+  }
+  
+  .nav_link::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.2vh;
+    background-color: rgb(56, 56, 56);
+    bottom: -0.3vw;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  a:hover::before {
+    transform: scaleX(1);
+  }
+  
+  /* Centro (título e subtítulo) */
+  .center_head {
+    flex-direction: column;
+    margin-right: 30vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 0.5vw; /* distância entre logo e texto */
+      white-space: nowrap; /* ← evita quebra do texto */
+      flex-grow: 1;
+      flex-shrink: 1;
+      flex-basis: auto;
+  }
+  
+  h1,
+  p {
+    user-select: none;
+    color: rgb(56, 56, 56);
+  }
+  
+  h1.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 1.4rem;
+    color: rgb(56, 56, 56);
+  }
+  
+  p.title {
+    font-size: 1rem;
+    font-style: italic;
+    margin-top: 0.2rem;
+    color: rgb(56, 56, 56);
+  }
+
+  #section2 {
+    scroll-margin-top: 1.45vw; /* ajuste conforme a altura do seu header */
+  }
+
+#nav_grande{
+  display: none;
+}
+
+#nav_menu {
+  display: none; /* Esconde o menu por padrão */
+  position: absolute;
+  top: 7vw; /* Distância do topo do container (ajuste conforme necessário) */
+  right: 0;  /* Alinha o menu à direita */
+  background-color: white;
+  padding: 1vw 4.7vw;
+  border-radius: 0.8vh;
+  box-shadow: 0 0.2vh 1vw rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  z-index: 1000; /* Garante que o menu fique sobre os outros elementos */
+}
+
+#nav_menu.active {
+  display: flex; /* Exibe o menu quando a classe "active" for aplicada */
+}
+
+#nav_menu a {
+  color: #333; /* Cor dos links */
+  text-decoration: none; /* Retira o sublinhado */
+  font-size: 1rem;
+  margin: 1vw 0; /* Espaço entre os links */
+  padding: 0.5vw 1vw;
+}
+
+#nav_menu a:hover {
+  background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
+  border-radius: 0.5vw;
+}
