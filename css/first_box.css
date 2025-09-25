@@ -16,14 +16,14 @@
   }
 
   .text_title,.text{
-    width: 450px;
-    padding-top: 10px;
+    width: 90vw;
+    padding-top: 1vh;
     font-family: Libre\ Caslon\ Display;
     color: rgb(56, 56, 56);
   }
 
   h3{
-    margin-top: 10px;
+    margin-top: 1.2vh;
     text-align: center;
     font-size: 1rem;
     user-select: none;
@@ -36,14 +36,14 @@
   }
 
   .f_image {
-    margin-top: 10px;
+    margin-top: 1.5vh;
     overflow: hidden;
-    width: 100%;
-    max-width: 500px;
+    width: 90vw;
+    max-width: 90vw;
     user-select: none;
-    height: 100%; /* 40% da altura da tela */
-    max-height: 555px; /* Altura máxima */
-    min-height: 250px; /* Altura mínima */
+    height: 40vh; 
+    max-height: 55vh; /* Altura máxima */
+    min-height: 57.9vh; /* Altura mínima */
     margin: 0 auto; /* Centraliza a div horizontalmente */
 }
 
@@ -59,19 +59,19 @@
 }
 
 .btn {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 150px;
-  height: 35px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  width: 20vw;
+  height: 3.5vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1.5px solid rgb(143, 68, 194);
-  border-radius: 20px;
+  border: 0.10vw solid rgb(143, 68, 194);
+  border-radius: 2vw;
   color: rgb(56, 56, 56);
   cursor: pointer;
   font-family: Inter, sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-weight: 500;
   transition: background-color 0.55s ease-in-out, 
               color 0.55s ease-in-out, 
@@ -79,12 +79,6 @@
               transform 0.3s ease-in-out;
 }
 
-.btn:hover {
-  color: aliceblue;
-  background-color: rgb(56, 56, 56);
-  border: 1.5px solid rgb(56, 56, 56);
-  transform: translate(0px, -1px); /* Adiciona um pequeno movimento */
-}
 
 #section1 {
   scroll-margin-top: 150px; /* ajuste conforme a altura do seu header */
