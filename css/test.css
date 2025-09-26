@@ -1,0 +1,402 @@
+  /* MEDIA QUERY: Ajustes para telas maiores */
+  @media (min-width: 768px) {
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 1rem 18vw;
+    }
+  
+    div.logo {
+      width: 60px;
+      height: auto;
+    }
+  
+    .center_head {
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      margin: 0;
+    }
+  
+    .right_head {
+      margin-right: 900px;
+      display: flex;
+      align-items: center;
+    }
+  
+    nav a {
+      margin-left: 1rem;
+    }
+  
+    h1.title {
+      font-size: 2rem;
+      margin: 0;
+    }
+  
+    p.title {
+      font-size: 1rem;
+      margin: 0.2rem 0 0 0;
+    }
+
+    #nav_grande{
+      display: block;
+      width: 25vw;
+    }
+    
+    .menu_toggle{
+      display: none;
+    }
+ 
+                    /* header end */
+
+/* ------------------------------------------------------------------------ */
+
+                    /* first box start */
+      .first_box {
+        display: flex;
+        width: 100%;
+        height: 70vh;
+        margin-top: 15vh;
+      }
+    
+      .text_area {
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        flex: 1; /* Ocupa todo o espaço que não é da imagem */
+        margin-left: 300px;
+        margin-right: 100px;
+      }
+
+    .text_title{
+      width: 750px;
+    } h3 {
+        text-align: center;
+        font-size: 1.6rem;
+      }
+      
+    .text{
+      width: 700px;
+      padding-top: 50px;
+    } h2 {
+        font-size: 3.8rem;
+        text-align: center;
+      }
+    
+      .f_image {
+        margin-top: 10px;
+        overflow: hidden;
+        width: 100%;
+        user-select: none;
+        height: 100%; /* 40% da altura da tela */
+        max-height: 650px; /* Altura máxima */
+        min-height: 250px; /* Altura mínima */
+        margin-right: 100px;
+    }
+    
+    .f_image img{
+      object-position: center;
+      display:block;
+      margin: 0;
+      object-fit: cover;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+    }
+
+  .btn{
+    margin-top: 100px;
+    width: 240px;
+    height: 60px;
+    font-size: 1.2rem;
+  }
+
+  .btn:hover {
+    color: aliceblue;
+    background-color: rgb(56, 56, 56);
+    border: 1.5px solid rgb(56, 56, 56);
+    transform: translate(0px, -1px); /* Adiciona um pequeno movimento */
+  }
+  
+
+
+  /* Segunda caixa*/
+/*-----------------------------------------------------------------------------------------*/
+.text_before_box{
+  display: flex;
+  margin-top: 1.2vh;
+  align-items: center;
+  justify-content: center;
+  }
+
+  #h3second{
+    font-size: 1.9rem;
+  }
+  
+
+.second_box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center; 
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.divided_box1,
+.divided_box2,
+.divided_box3,
+.divided_box4,
+.divided_box5,
+.divided_box6 {
+  flex: 0 0 30%;     /* largura fixa de ~30% (3 por linha) */
+  max-width: 30%;
+  min-width: 280px;  /* não deixa ficar minúsculo no mobile */
+  text-align: center;
+}
+
+.divided_box1 img,
+.divided_box2 img,
+.divided_box3 img,
+.divided_box4 img,
+.divided_box5 img,
+.divided_box6 img {
+  width: 20%;       /* imagem ocupa toda a largura da caixa */
+  height: auto;      /* mantém proporção */
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+
+/* ------------------------------------------------------------------------------*/
+/* Third box */
+.third_box {
+  display: grid;
+  grid-template-columns: 45% 1fr; /* Aumentei a imagem para 50% */
+  grid-template-rows: auto 1fr;                     /* espaço um pouco maior */
+  align-items: center;
+  justify-items: center;          /* centraliza horizontalmente os itens do grid */
+  width: 100%;
+  min-height: 60vh;
+  margin-top: 0;
+  padding-top: 0;
+  overflow: hidden;
+}
+
+/* imagem maior e mais à esquerda */
+.image_box {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  width: 80%;
+  height: 100%;
+  background-color: blueviolet;
+  border-radius: 0;
+  margin: 0;
+  margin-left: 460px;             /* reduzido para mover mais à esquerda */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_after_box{
+  display: none;
+}
+
+/* título mais centralizado */
+.title_box {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;        /* centralizado horizontalmente */
+  text-align: center;             /* texto centralizado */
+  width: 100%;
+  padding: 0 40px;                /* mais espaço nas laterais */
+}
+
+.title_box h1 {
+  padding-top: 80px;
+  line-height: 1.2; 
+  margin: 0;
+  font-size: 4rem;
+  text-align: center;             /* título centralizado */
+  width: 40%;
+}
+
+.text_box {
+  display: flex;
+  grid-column: 2;
+  grid-row: 2;
+  max-width: 100%;
+  text-align: center;             /* texto centralizado */
+  margin: 0;
+  align-items: center;
+  justify-content: center;        /* centralizado horizontalmente */
+  padding: 0 40px;                /* mais espaço nas laterais */
+}
+
+.text_box p {
+  text-justify: inter-word;
+  text-align: justify;             /* parágrafo centralizado */
+  width: 100%;
+  line-height: 1.4;               /* melhor espaçamento entre linhas */
+  font-size: 1.2rem;
+}
+
+/* limpa possíveis orders e larguras herdadas do mobile */
+.title_box, .text_box, .image_box {
+  order: 0;
+  flex: none;
+}
+
+#section3 {
+  scroll-margin-top: 150px;
+}
+
+/* ------------------------------------------------------------------------------*/
+/* forth box */
+
+.third_box2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Aumentei a imagem para 50% */
+  grid-template-rows: auto 1fr;                     /* espaço um pouco maior */
+  align-items: center;
+  justify-items: center;          /* centraliza horizontalmente os itens do grid */
+  width: 100%;
+  min-height: 60vh;
+  margin-top: 0;
+  padding-top: 0;
+  overflow: hidden;
+}
+
+/* imagem maior e mais à esquerda */
+.image_box2 {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  width: 70%;
+  height: 100%;
+  background-color: blueviolet;
+  border-radius: 0;
+  margin-top: 0;
+  margin-right: 80px;           /* reduzido para mover mais à esquerda */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_after_box2{
+  display: none;
+}
+
+/* título mais centralizado */
+.title_box2 {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  align-items: right;
+  justify-content: center;        /* centralizado horizontalmente */
+  text-align: center;             /* texto centralizado */
+  width: 100%; 
+  height: 0px;              
+}
+
+.title_box2 h1 {
+  padding-top: 80px;
+  padding-left: 300px;
+  line-height: 1.2; 
+  margin: 0;
+  font-size: 4rem;
+}
+
+/* texto mais centralizado */
+.text_box2 {
+  display: flex;
+  display: flex;
+  align-items: right;
+  justify-content: center;        /* centralizado horizontalmente */
+  text-align: center;  
+  grid-column: 1;
+  grid-row: 2;
+  margin: 0;
+  padding: 0;
+  width: 900px;
+}
+
+.text_box2 p {        
+  line-height: 1.4;              /* melhor espaçamento entre linhas */
+  font-size: 1.2rem;
+  padding-left: 300px;
+}
+
+/* limpa possíveis orders e larguras herdadas do mobile */
+.title_box2, .text_box2, .image_box2 {
+  order: 0;
+  flex: none;
+}
+/* botoes sociais */
+/*----------------------------------------------------------------------*/
+.me {
+  width: 400px;
+  margin: 90px auto;
+}
+.me p,
+.me h1 {
+  letter-spacing: 3px;
+  text-align: center;
+}
+.me p {
+  font-weight: 200;
+}
+.me span {
+  font-weight: bold;
+}
+.social {
+  position: fixed;
+  top: 725px;
+}
+.social ul {
+  padding: 0px;
+  transform: translate(-270px, 0);
+}
+.social ul li {
+  display: block;
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.36);
+  width: 285px;
+  text-align: right;
+  padding: 5px;
+  border-radius: 0 30px 30px 0;
+  transition: all 1s;
+}
+.social ul li:hover {
+  transform: translate(110px, 0);
+  background: rgba(255, 255, 255, 0.4);
+}
+.social ul li:hover a {
+  color: #000;
+}
+.social ul li:hover i {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.36);
+  transform: rotate(360deg);
+  transition: all 1s;
+}
+.social ul li i {
+  margin-left: 10px;
+  color: #000;
+  background: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  background: #ffffff;
+  transform: rotate(0deg);
+}
+
+
+}
+      
+
+  

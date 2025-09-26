@@ -2,10 +2,9 @@
 display: flex;
 width: 100%;
 background-color:rgb(255, 255, 255);
-margin-top: 8vh;
-height: 7vh;
-align-items: center;
+align-items: flex-end; /* corrigido */
 justify-content: center;
+margin-top: 10vh;
 }
 
 #h3second{
@@ -56,4 +55,5 @@ justify-content: center;
 .divided_box5 p,
 .divided_box6 p{
   font-size: 1.2rem;
+  text-align: center;
 }

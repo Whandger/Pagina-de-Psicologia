@@ -5,6 +5,7 @@
     height: 7vh;
     align-items: self-end;
     justify-content: center;
+    margin-top: 10vh;
     }
 
 h4{
@@ -35,7 +36,7 @@ h1{
 
 .image_box2{
     margin-top: 15px;
-    width: 50%;
+    width: 60%;
     height: 30vh;
     border-radius: 2%;
     overflow: hidden;
@@ -55,7 +56,7 @@ h1{
 .text_box2{
     text-align: center;
     margin-top: 20px;
-    width: 50%;
+    width: 60%;
     height: 5vh;
     text-justify: inter-word;
     text-align: justify;   
