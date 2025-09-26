@@ -318,6 +318,7 @@
   .social, .social ul, .social li{
     display: block;
 }
+
   .me {
     width: clamp(280px, 50vw, 400px);
     margin: clamp(40px, 10vh, 90px) auto;
@@ -386,3 +387,8 @@
     transform: rotate(0deg);
   }
 }
+
+@media (max-height: 667px){
+.text_after_box2{
+    margin-top: 30vh;
+    }}
