@@ -57,17 +57,16 @@
   }
 
   .text_area {
+    width: 60%;
     margin-top: 10vh;
     display: flex;
     flex-direction: column;
     flex: 1;
-    margin-left: clamp(1rem, 15vw, 300px);
-    margin-right: clamp(1rem, 8vw, 100px);
+    margin-left: clamp(1rem, 8vw, 100px);
   }
 
   .text_title {
     width: 100%;
-    max-width: 25vw;
   }
 
   h3 {
@@ -89,7 +88,7 @@
   .f_image {
     margin-top: 10px;
     overflow: hidden;
-    width: 100%;
+    width: 40%;
     user-select: none;
     height: 100%;
     max-height: 100%;
