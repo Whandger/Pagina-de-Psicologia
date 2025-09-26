@@ -62,7 +62,7 @@
     display: flex;
     flex-direction: column;
     flex: 1;
-    margin-left: clamp(1rem, 8vw, 100px);
+    margin-left: clamp(20rem, 8vw, 100px);
   }
 
   .text_title {
@@ -314,6 +314,10 @@
   }
 
   /* botoes sociais */
+
+  .social, .social ul, .social li{
+    display: block;
+}
   .me {
     width: clamp(280px, 50vw, 400px);
     margin: clamp(40px, 10vh, 90px) auto;
