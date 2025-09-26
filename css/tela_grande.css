@@ -191,6 +191,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 0%;
   }
 
   .text_after_box {
@@ -254,6 +255,7 @@
     width: 100%;
     min-height: 60vh;
     overflow: hidden;
+    padding-bottom: 3vh;
   }
 
   .image_box2 {
@@ -266,6 +268,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 0%;
   }
 
   .text_after_box2 {
@@ -306,6 +309,7 @@
     line-height: 1.4;
     font-size: clamp(1rem, 2vw, 1.2rem);
     padding-left: clamp(1rem, 15vw, 300px);
+    width: 36vw;
   }
 
   .title_box2, .text_box2, .image_box2 {
@@ -392,4 +396,3 @@
 .text_after_box2{
     margin-top: 30vh;
     }}
-
