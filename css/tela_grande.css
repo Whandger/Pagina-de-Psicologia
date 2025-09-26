@@ -111,9 +111,11 @@
   .btn {
     margin-top: clamp(2rem, 10vh, 100px);
     width: clamp(160px, 20vw, 240px);
-    height: clamp(40px, 8vh, 60px);
+    height: clamp(3rem, 4rem, 5rem); /* baseado no font-size */
     font-size: clamp(1rem, 2vw, 1.2rem);
-  }
+    line-height: 1.2; /* controla altura interna do texto */
+    padding: 0.5em 1em; /* espaçamento proporcional */
+}
 
   .btn:hover {
     color: aliceblue;

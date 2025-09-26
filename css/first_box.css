@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 25.5%;
     flex: 1; /* Ocupa todo o espaço que não é da imagem */
   }
 
@@ -36,14 +37,10 @@
   }
 
   .f_image {
-    width: 100vw; /* Ocupa 100% da largura da viewport */
-    max-width: 100%;
-    height: 60vh;
+    width: 100%;
+    height: 88.5%; /* ocupa 100% da altura do first_box */
     overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative; /* Para melhor controle */
+    position: relative;
 }
 
 .f_image img {
