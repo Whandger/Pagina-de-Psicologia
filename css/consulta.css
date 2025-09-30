@@ -1,5 +1,36 @@
 .consulta{
-    background-color:rgb(131, 131, 131);
+    background-color:rgb(255, 255, 255);
     width: 100%;
-    height: 60vh;
+    height: 25vh;
+    background-image: url("../images/./Sun.png");
+    background-size: cover;      
+    background-size: contain;    
+    background-position: center;  
+    background-repeat: no-repeat; 
+    background-size: 20% auto;
+    background-position:center 6vh;
+    padding-bottom: 4vh;
 }
+
+.consulta1{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vh;
+}.consulta1 h1{
+    width: 60%;
+    color: rgb(56, 56, 56);
+    font-family: Libre\ Caslon\ Display;
+}
+
+.consulta2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+} 
+
+

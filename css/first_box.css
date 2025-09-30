@@ -17,7 +17,7 @@
   }
 
   .text_title,.text{
-    width: 90vw;
+    width: 100%;
     padding-top: 1vh;
     font-family: Libre\ Caslon\ Display;
     color: rgb(56, 56, 56);
@@ -57,6 +57,7 @@
   margin-bottom: 2vh;
   width: 30vw;
   height: 3.5vh;
+  line-height: 3.5vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,5 +77,4 @@
 
 #section1 {
   scroll-margin-top: 150px; /* ajuste conforme a altura do seu header */
-
 }

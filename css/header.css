@@ -15,7 +15,7 @@ header {
   }
   
   div.logo{
-    width: 6.5vh;
+    width: 7vh;
     height: auto;
     flex-shrink: 0; /* evita que a logo seja espremida pelo flex */
   }
@@ -24,6 +24,7 @@ header {
     width: 100%;
     height: auto;
   }
+  
 
   /* Áreas do header */
   .right_head,

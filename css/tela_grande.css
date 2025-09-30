@@ -38,13 +38,15 @@
     font-size: clamp(0.8rem, 1.5vw, 1rem);
     margin: 0.2rem 0 0 0;
   }
-
+  .nav_link{
+    margin: 0 1rem;
+  }
   #nav_grande {
     display: block;
     width: clamp(150px, 25vw, 400px);
   }
 
-  .menu_toggle {
+  .menu_toggle, #nav_menu {
     display: none;
   }
 
@@ -242,7 +244,7 @@
   }
 
   #section3 {
-    scroll-margin-top: 150px;
+    scroll-margin-top: 2vh;
   }
 
   /* forth box */
@@ -255,7 +257,9 @@
     width: 100%;
     min-height: 60vh;
     overflow: hidden;
-    padding-bottom: 3vh;
+    padding-bottom: 26vh;
+    background-size: 100% auto;
+    background-position:center 42vh;
   }
 
   .image_box2 {
@@ -390,9 +394,79 @@
     font-size: 20px;
     transform: rotate(0deg);
   }
+
+/* consulta
+/*-----------------------------------------------------------*/
+
+.consulta{
+  background-color:rgb(255, 255, 255);
+  width: 100%;
+  height: 40vh;
+  background-image: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: none;
+  padding-bottom: 0vh;
+  padding-top: 6vh;
+}
+.consulta1{
+  width: 100%;
+  height: 20%;
+  align-items: normal;
+  padding-bottom: 2vh;
+}.consulta1 h1{
+  width: 60%;
+  color: rgb(56, 56, 56);
+  font-family: Libre\ Caslon\ Display;
+  font-size: 3rem;
 }
 
+.consulta2{
+  width: 100%;
+  height: 0%;
+} .consulta2 .btn{
+  width: 5vw;
+  height: 5vh;
+  border-color: rgb(56, 56, 56);
+  background-color: rgb(56, 56, 56);
+  color: aliceblue;
+}.consulta2 .btn:hover{
+  background-color: rgb(44, 184, 67);
+  border-color: rgb(44, 184, 67);;
+}
+.contato_container{
+  display: none;
+}
+
+}
+
+
+
 @media (max-height: 667px){
+
+  header {
+    padding: 0.5rem 2vw;
+    }
 .text_after_box2{
     margin-top: 30vh;
-    }}
+    }
+    .third_box2{
+      padding-bottom: 15vh;
+    }
+    .consulta{
+      background-size: 20% auto; /* largura 200px, altura 100px */
+      background-position:center 7.5vh;
+      height: 30vh;
+    }
+    .consulta1{
+      padding-bottom: 6.5vh;
+    }
+    .content {
+      width: 50vw;   /* largura do “meio” */
+      height: 30vh;  /* altura do “meio” */
+    }
+    .contato_container{
+      width: 100%;
+      height: 45vh;
+  }
+  }

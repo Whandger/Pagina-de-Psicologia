@@ -21,6 +21,8 @@
   <link rel="stylesheet" href="./css/third_box.css">
   <link rel="stylesheet" href="./css/forth_box.css">
   <link rel="stylesheet" href="./css/consulta.css">
+  <link rel="stylesheet" href="./css/social_slide.css">
+  <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/tela_grande.css">
         </head>
 
@@ -31,8 +33,8 @@
                 </div>
               
                 <div class="center_head">
-                  <h1 class="title">Eduarda Psicóloga</h1>
-                  <p class="title">CRP 07/43941</p>
+                  <h1 class="title">Eduarda Priebe</h1>
+                  <p class="title"> Psicóloga CRP 07/43941</p>
                 </div>
               
                 <div class="right_head">
@@ -41,7 +43,6 @@
                         <a class="nav_link" href="#section1"><b>Inicio</b></a>
                         <a class="nav_link" href="#section3"><b>Sobre mim</b></a>
                         <a class="nav_link" href="#section2"><b>Agendar Consulta</b></a>
-                        <a class="nav_link" href="#section4"><b>Contato</b></a>
                       </nav>
 
                         <div class="menu_toggle" style="cursor: pointer;" onclick="toggleMenu()">☰</div>
@@ -121,23 +122,49 @@
                 </div>
 
 
-                <div class="consulta"></div>
+                <div class="consulta" id="section2">
+                    <div class="consulta1">
+                        <h1>AGENDE UM HORARIO</h1>
+                    </div>
+                    <div class="consulta2">
+                        <a href="https://wa.me/555196450695" target="_blank" rel="noopener noreferrer" class="btn">Whatsapp</a></div>
+                </div>
+
+                <div class="contato_container"> 
+                    <div class="text_container">
+                        <h1>Redes Sociais</h1>
+                    
+                    <div class="carousel">
+                        <button class="arrow left" onclick="prevSlide()">←</button>
+                      
+                        <div class="content" id="carousel-content">
+                          <div id="wpp" class="slide active"></div>
+                          <div id="linkedin" class="slide"></div>
+                          <div id="instagram" class="slide"></div>
+                        </div>
+                      
+                        <button class="arrow right" onclick="nextSlide()">→</button>
+                      </div>
+
+                    </div>
+                </div>
+                
 
             </main>
 
 
-            <footer></footer>
+            <footer>
+                <div class="footer"></div>
+            </footer>
+
             <script src="./js/icon.js"></script>
             <script src="./js/header.js"></script>
             <script src="./js/reveal.js"></script>
             <script src="https://unpkg.com/scrollreveal"></script>
             <script src="./js/menu.js"></script>
+            <script src="./js/social_slide.js"></script>
         </body>
 
 
     </html>
-
   
-
-
-
