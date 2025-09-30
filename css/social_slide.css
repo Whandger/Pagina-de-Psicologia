@@ -15,57 +15,50 @@
 
 
 .carousel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    padding-top: 2vh;
-  }
-  
-  .content {
-    width: 55vw;   /* largura do “meio” */
-    height: 25vh;  /* altura do “meio” */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    position: relative;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-  }
-  
-  .slide {
-    display: none;
-    font-size: 1.2rem;
-  }
-  
-  .slide.active {
-    display: block;
-  }
-  
-  .arrow {
-    background: none;
-    border: none;
-    font-size: 2rem;
-    cursor: pointer;
-  }
-  
-  #wpp,#linkedin,#instagram{
-    background-color: aqua;
-    width: 100%;
-    height: 100%;
-    background-size: 100% auto;
-    background-position: center center;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 2vh;
+}
 
-#wpp{
-    background-image: url("../images/logo-white.png");
-    background-color: black;
+.content {
+  width: 55vw;
+  height: 25vh;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }
-#linkedin{
-    background-image: url("../images/logo.png");
-    background-color: aliceblue;
+
+.slides {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease; /* 👈 animação suave */
 }
-#instagram{
-    background-image: url("../images/moon.png");
+
+.slide {
+  min-width: 55vw;  /* 👈 igual à largura de .content */
+  height: 25vh;     /* 👈 igual à altura de .content */
+  background-size: 100% auto;
+  background-position: center center;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#wpp {
+  background-image: url("../images/logo-white.png");
+  background-color: black;
+}
+#linkedin {
+  background-image: url("../images/logo.png");
+  background-color: aliceblue;
+}
+#instagram {
+  background-image: url("../images/autoestima.png");
 }
