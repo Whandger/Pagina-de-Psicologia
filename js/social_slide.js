@@ -1,10 +1,11 @@
 let currentIndex = 0;
 const slides = document.querySelectorAll(".slide");
+const slidesContainer = document.getElementById("slides");
 
 function showSlide(index) {
-  slides.forEach((slide, i) => {
-    slide.classList.toggle("active", i === index);
-  });
+  const slideWidth = slides[0].offsetWidth; // pega largura real do slide
+  const offset = -index * slideWidth;
+  slidesContainer.style.transform = `translateX(${offset}px)`;
 }
 
 function prevSlide() {
@@ -16,3 +17,5 @@ function nextSlide() {
   currentIndex = (currentIndex + 1) % slides.length;
   showSlide(currentIndex);
 }
+
+
