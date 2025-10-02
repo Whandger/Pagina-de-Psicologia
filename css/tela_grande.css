@@ -401,7 +401,7 @@
 .consulta{
   background-color:rgb(255, 255, 255);
   width: 100%;
-  height: 40vh;
+  height: 25vh;
   background-image: none;
   display: flex;
   flex-direction: column;
@@ -413,7 +413,7 @@
   width: 100%;
   height: 20%;
   align-items: normal;
-  padding-bottom: 2vh;
+  padding-bottom: 4vh;
 }.consulta1 h1{
   width: 60%;
   color: rgb(56, 56, 56);
@@ -434,12 +434,90 @@
   background-color: rgb(44, 184, 67);
   border-color: rgb(44, 184, 67);;
 }
-.contato_container{
-  display: none;
+/*Footer ---------------------------------------------------*/
+
+footer{
+  height: 30vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px 0vh 7vh 9px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
+.footer_left{ /* div esquerda */
+  grid-column: 1;
+  grid-row: 1/3;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+.footer_left h1{
+  padding-bottom: 2vh;
+  font-size: 1.1rem;
+}
+
+.footer_left nav{
+  display: flex;
+  gap:0vw;
+}
+
+.desktop{
+  display: flex;
+}
+
+.footer_left .btn_social{
+  width: 2.5vw;
+  height: 2.5vh;
+}
+.footer_left .btn_social:hover{
+  transform: translatey(1vh);
+  transition: ease-in-out;
+  transition: 1s;
+}
+
+.footer_center{ /* div meio */
+grid-column: 2;
+grid-row: 1/3;
+width: 100%;
+height: 100%;
+background-size: 25% auto;
+display: flex;
+background-position: center 4vh;
+overflow: visible;
+}
+
+.footer_right{ /* Div baixo */
+  grid-row: 3;
+  grid-column: 1/4;
+  height: 30%;
+  align-self: flex-end;
+  flex-direction: row;
+  gap:0.7vw;
+}.footer_right h1{
+  font-size: 1rem;
+}
+
+.footer_right_Desktop{
+  grid-row: 1-3;
+  grid-column: 3;
+  display: block;
+}
+#nav_footer_desktop{
+  text-align:left;
+  padding-top: 8vh;
+  gap: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+}
 
 
 @media (max-height: 667px){
@@ -456,17 +534,26 @@
     .consulta{
       background-size: 20% auto; /* largura 200px, altura 100px */
       background-position:center 7.5vh;
-      height: 30vh;
+      height: 20vh;
+    }
+    .consulta2{
+      height: 20vh;
     }
     .consulta1{
-      padding-bottom: 6.5vh;
+      padding-bottom: 0vh;
     }
     .content {
       width: 50vw;   /* largura do “meio” */
       height: 30vh;  /* altura do “meio” */
     }
-    .contato_container{
-      width: 100%;
-      height: 45vh;
+      .footer_left h1{
+      font-size: 0.9rem;
+      }
+      .footer_left nav{
+        display: flex;
+        gap:3vw;
+    }
+    .footer_right h1{
+      font-size: 0.7rem;
   }
   }

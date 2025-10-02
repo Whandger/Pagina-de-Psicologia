@@ -1,15 +1,7 @@
 .consulta{
     background-color:rgb(255, 255, 255);
     width: 100%;
-    height: 25vh;
-    background-image: url("../images/./Sun.png");
-    background-size: cover;      
-    background-size: contain;    
-    background-position: center;  
-    background-repeat: no-repeat; 
-    background-size: 20% auto;
-    background-position:center 6vh;
-    padding-bottom: 4vh;
+    height: 15vh;
 }
 
 .consulta1{
@@ -18,7 +10,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 5vh;
 }.consulta1 h1{
     width: 60%;
     color: rgb(56, 56, 56);
@@ -31,7 +22,11 @@
     align-items: center;
     width: 100%;
     height: 90%;
-} 
+}.consulta2 .btn{
+    border-color: rgb(56, 56, 56);
+    background-color: rgb(56, 56, 56);
+    color: aliceblue;
+  }
 
 #section2 {
     scroll-margin-top: 2vh;
