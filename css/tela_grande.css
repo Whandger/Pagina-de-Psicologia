@@ -476,6 +476,8 @@ footer{
 .footer_left .btn_social{
   width: 2.5vw;
   height: 2.5vh;
+  transform: translateY(0vh);
+  transition: transform 0.6s ease-in-out;
 }
 .footer_left .btn_social:hover{
   transform: translatey(1vh);
