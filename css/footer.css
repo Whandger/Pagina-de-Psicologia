@@ -30,19 +30,19 @@ footer{
     background-repeat: no-repeat; 
 }
 #wpp{
-    background-image: url("../images/whatsapp.png");
+    background-image: url("https://res.cloudinary.com/deygsv2fm/image/upload/v1759499511/whatsapp_cvsxl4.png");
 
 }
 #instagram{
-    background-image: url("../images/instagram.png");
+    background-image: url("https://res.cloudinary.com/deygsv2fm/image/upload/v1759499510/instagram_xcruah.png");
 
 }
 #linkedin{
-    background-image: url("../images/linkedin.png");
+    background-image: url("https://res.cloudinary.com/deygsv2fm/image/upload/v1759499511/linkedin_pcjyog.png");
 
 }
 #email{
-    background-image: url("../images/email.png");
+    background-image: url("https://res.cloudinary.com/deygsv2fm/image/upload/v1759499510/email_a2wkw5.png");
 }
 
 .footer_left .btn_social{

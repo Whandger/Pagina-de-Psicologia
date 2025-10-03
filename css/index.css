@@ -42,7 +42,8 @@
     text-decoration: none;
   }
 
-
-
-
+  ::selection {
+    background: rgb(56, 56, 56);
+    color: white;
+  }
   

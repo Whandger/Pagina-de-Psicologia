@@ -45,7 +45,6 @@ margin-top: 10vh;
   height: auto;      /* mantém proporção */
   border-radius: 6px;
   margin-bottom: 10px;
-  user-select: none;
 }
 
 .divided_box1 p,

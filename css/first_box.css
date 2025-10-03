@@ -27,13 +27,11 @@
     margin-top: 1.2vh;
     text-align: center;
     font-size: 1rem;
-    user-select: none;
   }
 
   h2{
     font-size: 1.5rem;
     text-align: center;
-    user-select: none;
   }
 
   .f_image {
