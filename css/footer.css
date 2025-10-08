@@ -22,7 +22,7 @@ footer{
     display: flex;
     gap:4vw;
 }
-#wpp, #instagram, #linkedin, #email{
+#wpp, #instagram, #email{
     background-size: 100% auto;
     background-position: center center;
     background-size: cover;      
@@ -35,10 +35,6 @@ footer{
 }
 #instagram{
     background-image: url("https://res.cloudinary.com/deygsv2fm/image/upload/v1759499510/instagram_xcruah.png");
-
-}
-#linkedin{
-    background-image: url("https://res.cloudinary.com/deygsv2fm/image/upload/v1759499511/linkedin_pcjyog.png");
 
 }
 #email{
@@ -70,8 +66,8 @@ background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}.footer_right h1{
-    font-size: 0.8rem;
+}.footer_right p{
+    font-size: 0.85rem;
     color: rgb(226, 226, 226);
 }
 

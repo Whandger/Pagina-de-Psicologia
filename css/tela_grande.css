@@ -102,7 +102,7 @@
     object-position: center;
     display: block;
     margin: 0;
-    object-fit: cover;
+    object-fit: contain;
     overflow: hidden;
     width: auto;
     max-width: 100%;
@@ -190,6 +190,7 @@ font-size: 1.4rem;
     width: 100%;
     min-height: 60vh;
     overflow: hidden;
+    padding-top: 5vh;
   }
 
   .image_box {
@@ -202,7 +203,7 @@ font-size: 1.4rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 0%;
+    border-radius: 30% 0% 0% 30%;
   }
 
   .text_after_box {
@@ -260,15 +261,14 @@ font-size: 1.4rem;
   .third_box2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: 1fr 1fr;
     align-items: center;
     justify-items: center;
     width: 100%;
     min-height: 60vh;
     overflow: hidden;
-    padding-bottom: 26vh;
-    background-size: 100% auto;
-    background-position:center 42vh;
+    padding-bottom: 5vh;
+    background-image: none;
   }
 
   .image_box2 {
@@ -281,7 +281,7 @@ font-size: 1.4rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 0%;
+    border-radius: 0% 30% 30% 0%;
   }
 
   .text_after_box2 {
@@ -296,6 +296,7 @@ font-size: 1.4rem;
     text-align: center;
     width: 100%;
     height: auto;
+
   }
 
   .title_box2 h1 {
@@ -311,9 +312,9 @@ font-size: 1.4rem;
     align-items: flex-start;
     justify-content: center;
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 1;
+    padding-top: 33vh;
     margin: 0;
-    padding: 0;
     width: 100%;
     max-width: 900px;
   }
@@ -411,12 +412,15 @@ font-size: 1.4rem;
   background-color:rgb(255, 255, 255);
   width: 100%;
   height: 25vh;
-  background-image: none;
+  background-image: url("https://res.cloudinary.com/deygsv2fm/image/upload/v1759930731/wave-haikei_lkeyaq.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
   display: flex;
   flex-direction: column;
   justify-content: none;
   padding-bottom: 0vh;
-  padding-top: 6vh;
+  padding-top: 22vh;
 }
 .consulta1{
   width: 100%;
@@ -428,6 +432,7 @@ font-size: 1.4rem;
   color: rgb(56, 56, 56);
   font-family: Libre\ Caslon\ Display;
   font-size: 3rem;
+  font-weight: 550;
 }
 
 .consulta2{
@@ -515,11 +520,11 @@ footer:hover{.footer_center{
 .footer_right{ /* Div baixo */
   grid-row: 3;
   grid-column: 1/4;
-  height: 30%;
+  height: 40%;
   align-self: flex-end;
   flex-direction: row;
   gap:0.7vw;
-}.footer_right h1{
+}.footer_right p{
   font-size: 1rem;
 }
 
@@ -556,6 +561,7 @@ footer:hover{.footer_center{
   header {
     padding: 0.5rem 2vw;
     }
+
     
 .text_after_box2{
     margin-top: 30vh;
@@ -563,11 +569,22 @@ footer:hover{.footer_center{
     .third_box2{
       padding-bottom: 15vh;
     }
+    .f_image img {
+      object-position: center;
+      display: block;
+      margin: 0;
+      object-fit: contain;
+      overflow: hidden;
+      margin-left: 3vh;
+      margin-top: 2vh;
+    }
+
     .consulta{
       background-size: 20% auto; 
       background-position:center 7.5vh;
       height: 20vh;
     }
+
     .consulta2{
       height: 20vh;
     }
@@ -585,8 +602,8 @@ footer:hover{.footer_center{
         display: flex;
         gap:3vw;
     }
-    .footer_right h1{
-      font-size: 0.7rem;
+    .footer_right p{
+      font-size: 0.75rem;
   }
   }
 
