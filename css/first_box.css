@@ -48,6 +48,7 @@
     object-position: center;
     image-rendering: -webkit-optimize-contrast;
     transform: translateZ(0); /* Aceleração GPU */
+    margin-left: 5vw;
 }
   
 .btn {
