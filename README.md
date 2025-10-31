@@ -2,6 +2,10 @@ Página de Psicologia
 
 Uma página desenvolvida com HTML, CSS e JavaScript, voltada para divulgação de serviços online de psicoterapia.
 
+## deploy ##
+
+https://eduarda-priebe.vercel.app/
+
 🧠 Sobre
 
 Este projeto tem como objetivo criar uma presença digital para profissionais de psicologia, facilitando o acesso de pacientes aos serviços oferecidos. A página é responsiva e pode ser personalizada conforme as necessidades do profissional.
