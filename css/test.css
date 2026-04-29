@@ -173,10 +173,10 @@
 /* Third box */
 .third_box {
   display: grid;
-  grid-template-columns: 45% 1fr; /* Aumentei a imagem para 50% */
-  grid-template-rows: auto 1fr;                     /* espaço um pouco maior */
+  grid-template-columns: 45% 1fr; 
+  grid-template-rows: auto 1fr;  
   align-items: center;
-  justify-items: center;          /* centraliza horizontalmente os itens do grid */
+  justify-items: center; 
   width: 100%;
   min-height: 60vh;
   margin-top: 0;
@@ -193,7 +193,7 @@
   background-color: blueviolet;
   border-radius: 0;
   margin: 0;
-  margin-left: 460px;             /* reduzido para mover mais à esquerda */
+  margin-left: 460px; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -209,10 +209,10 @@
   grid-row: 1;
   display: flex;
   align-items: center;
-  justify-content: center;        /* centralizado horizontalmente */
-  text-align: center;             /* texto centralizado */
+  justify-content: center;     
+  text-align: center;      
   width: 100%;
-  padding: 0 40px;                /* mais espaço nas laterais */
+  padding: 0 40px;        
 }
 
 .title_box h1 {
@@ -220,7 +220,7 @@
   line-height: 1.2; 
   margin: 0;
   font-size: 4rem;
-  text-align: center;             /* título centralizado */
+  text-align: center;   
   width: 40%;
 }
 
@@ -229,18 +229,18 @@
   grid-column: 2;
   grid-row: 2;
   max-width: 100%;
-  text-align: center;             /* texto centralizado */
+  text-align: center;        
   margin: 0;
   align-items: center;
-  justify-content: center;        /* centralizado horizontalmente */
-  padding: 0 40px;                /* mais espaço nas laterais */
+  justify-content: center;  
+  padding: 0 40px;  
 }
 
 .text_box p {
   text-justify: inter-word;
-  text-align: justify;             /* parágrafo centralizado */
+  text-align: justify; 
   width: 100%;
-  line-height: 1.4;               /* melhor espaçamento entre linhas */
+  line-height: 1.4;        
   font-size: 1.2rem;
 }
 
